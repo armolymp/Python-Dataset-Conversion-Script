@@ -1,12 +1,12 @@
 # Object Detection Dataset and Training
 
-This repository contains a Pascal VOC format dataset for object detection. The dataset is used to train a model that detects objects in images and outputs cropped images along with their corresponding labels.
+This repository contains scripts to convert Pascal VOC format object detection dataset to CNN classification dataset for image classification purposes. The output dataset can used to train a model that classify images. The outputs are, cropped images along with their corresponding labels.
 
 ## Dataset
-
+Use any dataset that is labeled using Pascal VOC format for object detection.
 ### Format
 
-The dataset is in Pascal VOC format, which includes XML annotation files for each image. The annotation files contain bounding box information and class labels.
+The dataset should be in Pascal VOC format, which includes XML annotation files for each image. The annotation files contain bounding box information and class labels.
 
 ### Directory Structure
 
